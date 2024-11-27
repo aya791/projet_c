@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="(new model)" id="id-d81cf9187cbf4dad91c1f829ff7ff159" version="5.0.0">
+  <folder name="Strategy" id="id-4f6178a134a4454cb471a8684e00b6a8" type="strategy"/>
+  <folder name="Business" id="id-4ad0e825a04d4b5bb686f82ff5929b11" type="business">
+    <element xsi:type="archimate:BusinessRole" name="Business Role" id="id-574dd8119d4343b7be09faf5337051fb"/>
+    <element xsi:type="archimate:BusinessService" name="Business Service" id="id-6eee36697cb54dea85f873ce2d49b7c3"/>
+  </folder>
+  <folder name="Application" id="id-72dcb1dcec824a56aaed2c3a7ab0f632" type="application">
+    <element xsi:type="archimate:DataObject" name="Data Object" id="id-b1739ae33e82480398ae2a2c73e45426"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-aa5aae1c87a14b50af1e75a3babe3e6f" type="technology">
+    <element xsi:type="archimate:Node" name="end" id="id-b19f99f3d2e1461d9f8811b36ba7856c"/>
+    <element xsi:type="archimate:Node" name="Node" id="id-151e3b5c3bef480eae38b1a37fe07dbf"/>
+    <element xsi:type="archimate:TechnologyService" name="&lt;&lt;mission>>" id="id-62a6915aa2034e478a00cad8e4b3bd01"/>
+    <element xsi:type="archimate:TechnologyService" id="id-bcd340cf4c8a4942aaefb369dcb2a6e5"/>
+    <element xsi:type="archimate:TechnologyService" name="&lt;&lt;vison>>" id="id-87eea77803d8499aba48dd2e937fa120"/>
+    <element xsi:type="archimate:TechnologyService" name="&lt;&lt;goal>>" id="id-5d77fbae402047b3b88d43b4981688cc"/>
+    <element xsi:type="archimate:TechnologyService" name="&lt;&lt;strategy>>" id="id-6a8f8cd212024c218eaa785113310445"/>
+    <element xsi:type="archimate:TechnologyService" name="&lt;&lt;tactic>>" id="id-85945302a53f4ffba1345f186703a801"/>
+    <element xsi:type="archimate:TechnologyService" name="&lt;&lt;objective>>" id="id-832c793c48744b0bbd3b6e3e2d2eabbc"/>
+  </folder>
+  <folder name="Motivation" id="id-9d5b0c8b64b44f81b85fe7a3a01f4841" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-20fec6d5e8f849fd9b801e627c307338" type="implementation_migration"/>
+  <folder name="Other" id="id-1cfaa1d99e36424b9c7349864f44d429" type="other"/>
+  <folder name="Relations" id="id-b01914b09cd049d8b02ffa302627a2c7" type="relations"/>
+  <folder name="Views" id="id-87f03a2f7e5a4fd98748c3b5bfe03cc1" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-deafdfa8ba0948a882c0a5f5b0cfdab2">
+      <child xsi:type="archimate:DiagramObject" id="id-240b97a777604b6c92210ff3270d6431" alpha="250" archimateElement="id-62a6915aa2034e478a00cad8e4b3bd01">
+        <bounds x="708" y="48" width="217" height="109"/>
+        <child xsi:type="archimate:Note" id="id-593cb5a2b0614a23a5accd226873154c" textPosition="1">
+          <bounds x="12" y="24" width="193" height="80"/>
+          <content> Fournir des systèmes d'énergie solaire et de stockage abordables </content>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-401bac4261c843e7bf8589187684d681" archimateElement="id-87eea77803d8499aba48dd2e937fa120">
+        <bounds x="240" y="48" width="241" height="109"/>
+        <child xsi:type="archimate:Note" id="id-91215723bf5d438e988890019cbc524a" textAlignment="1">
+          <bounds x="12" y="24" width="217" height="73"/>
+          <content>Devenir le leader en fourniture de solutions énergétiques sur les marchés ciblés</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-2be6d795e0bb4c97861952e4cde11a5e" archimateElement="id-5d77fbae402047b3b88d43b4981688cc">
+        <bounds x="240" y="168" width="241" height="109"/>
+        <child xsi:type="archimate:Note" id="id-00a2fb6fb96d469a91cc12f7ab8dd652" textAlignment="1">
+          <bounds x="12" y="24" width="217" height="73"/>
+          <content>-Atteindre 20 % de parts de marché&#xD;
+- Réduire les coûts de fabrication&#xD;
+- Augmenter la satisfaction client&#xD;
+</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-7c9313c11ad44c2fb8bc427c191bbfd1" archimateElement="id-6a8f8cd212024c218eaa785113310445">
+        <bounds x="708" y="168" width="217" height="109"/>
+        <child xsi:type="archimate:Note" id="id-eb5d31ff033549099f9298f6bae6a82c" textAlignment="1">
+          <bounds x="12" y="24" width="193" height="73"/>
+          <content>Investir dans la R&amp;D et établir des partenariats locaux et développer une campagne éducative</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-49aaebb8d09e48b3a401bb461c86676e" archimateElement="id-85945302a53f4ffba1345f186703a801">
+        <bounds x="708" y="324" width="217" height="97"/>
+        <child xsi:type="archimate:Note" id="id-aa27de3f3e7e4610bb1e3a3ae6c62f59" textAlignment="1">
+          <bounds x="12" y="24" width="193" height="61"/>
+          <content>-Utiliser les mesures incitatives gouvernementales et créer une équipe d'assistance dédiée</content>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-fb57f81540e649e09e9de5a657d6ac71" archimateElement="id-832c793c48744b0bbd3b6e3e2d2eabbc">
+        <bounds x="240" y="324" width="241" height="97"/>
+        <child xsi:type="archimate:Note" id="id-41ddd7e85548418baaeaed687e2f6506" textAlignment="1">
+          <bounds x="12" y="24" width="217" height="61"/>
+          <content>Se développer sur de nouveaux marchés européens et lancer un modèle d'abonnement</content>
+        </child>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
